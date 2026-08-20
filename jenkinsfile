@@ -1,10 +1,12 @@
-pipeline {
+pipeline{ 
+
    agent any
    stages{
-     stages('hello') {
+     stages{('hello') {
        steps{
          echo 'hello from food order app'
         }
       }
     }
   }
+}
